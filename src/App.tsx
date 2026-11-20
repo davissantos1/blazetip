@@ -368,12 +368,9 @@ export const App: React.FC = () => {
       <HackathonBanner
         network={network}
         onNetworkChange={handleNetworkChange}
-        // BLAZE rubrica (Mainnet Track): banner precisa de link dos slides,
-        // link do repo público e endereço CashTokens real para EMBER2026.
-        // Definir com os valores REAIS do Davi antes do deploy — sem placeholder.
-        // slidesUrl="https://..."
-        // githubRepoUrl="https://github.com/<davi>/BlazeTip"
-        // emberTokenAddress="<cashaddr do Davi, wallet com suporte a CashTokens>"
+        slidesUrl="https://drive.google.com/file/d/1tysMkFnLvVykMdPTcqIwiWzYmcqQikll2LJHFSNLGvU/view"
+        githubRepoUrl="https://github.com/davissantos1/blazetip"
+        emberTokenAddress="bitcoincash:zqsdewuqy064rz4kazv0dm9peff0thjl3vhgukp5em"
       />
 
       <main className="flex-1 flex flex-col justify-center px-4 py-8 sm:py-12">
